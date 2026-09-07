@@ -123,6 +123,17 @@ nav.links a:hover, nav.links a.active{ color:var(--text); border-color:var(--acc
 .img-placeholder .ph-icon{ font-size:2rem; }
 .img-placeholder small{ max-width:28ch; font-size:0.78rem; line-height:1.4; }
 
+/* real photos (embedded inline as data URIs — no separate image files/folders) */
+.hero-photo{
+  width:100%; aspect-ratio:4/3; object-fit:cover; display:block;
+  border-radius:var(--radius-lg); box-shadow:var(--shadow);
+}
+.blog-card-photo{ width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+.article-cover-photo{
+  width:100%; aspect-ratio:16/9; object-fit:cover; display:block;
+  border-radius:var(--radius-lg); margin:1.6em 0;
+}
+
 /* ---------- Generic sections ---------- */
 section{ padding:52px 0; border-top:1px solid var(--border); }
 .section-title{ font-size:clamp(1.5rem,2.6vw,2rem); letter-spacing:-0.01em; margin-bottom:10px; }
