@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" role="img" aria-labelledby="bccLogoTitle">
+  <title id="bccLogoTitle">Banner Clean Co.</title>
+  <g transform="translate(0,8)">
+    <rect width="64" height="64" rx="16" fill="#127475"/>
+    <polygon points="10,26 19,17 45,17 54,26 45,35 19,35" fill="#FFFFFF"/>
+    <path d="M46 12 L48.4 17.6 L54 20 L48.4 22.4 L46 28 L43.6 22.4 L38 20 L43.6 17.6 Z" fill="#FF6F59"/>
+    <path d="M16 44c8 5 24 5 32 0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85"/>
+  </g>
+  <text x="78" y="38" font-family="'Fredoka', 'Segoe UI', sans-serif" font-weight="600" font-size="30" fill="#16302B">Banner Clean</text>
+  <text x="78" y="63" font-family="'Fredoka', 'Segoe UI', sans-serif" font-weight="500" font-size="20" fill="#127475" letter-spacing="1">CO.</text>
+</svg>
